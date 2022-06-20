@@ -1,0 +1,85 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:100%;
+    height:50em;
+}
+
+h1{
+    margin-top: 1em;
+    margin-bottom: 0em;
+    
+}
+
+/* Players */ 
+#player1{
+    color:green;
+    font-size: larger;
+}
+
+#player2{
+    color:orange;
+    font-size: larger;
+}
+/* Board */
+section{
+    display:grid;
+    grid-template-columns:10em 10em 10em;
+    grid-template-rows:10em 10em 10em;
+}
+
+section>button {
+   font-size: larger;
+   font-size:10em;
+   display:flex;
+   justify-content:center;
+   align-items:center;  
+   text-align: center;
+}
+
+/* Div with players data */
+#chooseSign {
+    width:36%;
+    height: 3em;
+    display:flex;
+    justify-content:space-around;  
+}
+
+#chooseSign div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    
+}
+
+input{
+    width:1em;
+    height:1em;
+    text-align:center;
+    position:relative;
+    left:.3em;  
+}
+
+#score {
+    width: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h5{
+    margin:0em;
+    position: relative;
+    right:3.5em;
+    margin-bottom:.6em;
+    font-size: 1em;
+}
+
+/* Result of the game */
+
+#placeholder{
+    position:relative;
+    margin:.5em;
+}

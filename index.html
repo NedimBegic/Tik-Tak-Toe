@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <h1>Tik-Tak-Toe</h1>
+    <div id="chooseSign">
+        <div>
+            <h4 id="player1">Player 1</h4>
+            <input id="player_1" type="text" name="Player1" placeholder="Choose sign" maxlength="1">
+            <button id="changePlayer1">Change sign</button>
+        </div>
+        <div>
+            <h4 id="player2">Player 2</h4>
+            <input id="player_2" type="text" name="Player2" placeholder="Choose sign" maxlength="1">
+            <button id="changePlayer2">Change sign</button>
+        </div>
+    </div>
+    <div id="score">
+        <h5 style="color:green">Score: <span id="scoreP1"></span></h5>
+        <h5 style="color:orange">Score:<span id="scoreP2"></span></h5>
+    </div>
+
+
+    <section>
+        <button id="c1" class="all"></button>
+        <button id="c2" class="all"></button>
+        <button id="c3" class="all"></button>
+        <button id="b1" class="all"></button>
+        <button id="b2" class="all"></button>
+        <button id="b3" class="all"></button>
+        <button id="a1" class="all"></button>
+        <button id="a2" class="all"></button>
+        <button id="a3" class="all"></button>
+    </section>
+    <h1 id="placeholder"></h1>
+    <button id="playAgain">Play again</button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
