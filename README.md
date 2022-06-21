@@ -3,3 +3,4 @@
 In this project I made my version of the Tik-Tak-Toe game.
 I made it so that the players can choose ther own sign and play with them.
 The game will start only when both players set their sign and clicked the buttons 'Choose sign'.
+The site is live and you can check it out on :https://tik-tak-toe-myversion.netlify.app/
