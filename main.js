@@ -151,7 +151,7 @@ function checkWin(player) {
         if (a1.textContent && a2.textContent && a3.textContent &&
             b1.textContent && b2.textContent && b3.textContent &&
             c1.textContent && c2.textContent && c3.textContent) {
-            document.querySelector('#placeholder').textContent = "Draft";
+            document.querySelector('#placeholder').textContent = "Draw";
             document.querySelector('#placeholder').style.color = "red";
         };
 };
